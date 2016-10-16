@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15C5E68197D8735F12875577 /* libPods-gpuImageTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D952DB57595A12F1FD2B8C /* libPods-gpuImageTest.a */; };
+		884E66A21DB3333E002554C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E66A11DB3333E002554C0 /* main.m */; };
+		884E66A51DB3333E002554C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E66A41DB3333E002554C0 /* AppDelegate.m */; };
+		884E66A81DB3333E002554C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E66A71DB3333E002554C0 /* ViewController.m */; };
+		884E66AB1DB3333E002554C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884E66A91DB3333E002554C0 /* Main.storyboard */; };
+		884E66AD1DB3333E002554C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884E66AC1DB3333E002554C0 /* Assets.xcassets */; };
+		884E66B01DB3333E002554C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884E66AE1DB3333E002554C0 /* LaunchScreen.storyboard */; };
+		884E66BB1DB3333F002554C0 /* gpuImageTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E66BA1DB3333F002554C0 /* gpuImageTestTests.m */; };
+		884E66C61DB3333F002554C0 /* gpuImageTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E66C51DB3333F002554C0 /* gpuImageTestUITests.m */; };
+		884E66D41DB3336F002554C0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884E66D31DB3336F002554C0 /* CoreMedia.framework */; };
+		884E66D61DB33376002554C0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884E66D51DB33376002554C0 /* CoreVideo.framework */; };
+		884E66D81DB3337E002554C0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884E66D71DB3337E002554C0 /* OpenGLES.framework */; };
+		884E66DA1DB33385002554C0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884E66D91DB33385002554C0 /* AVFoundation.framework */; };
+		884E66DC1DB3338D002554C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884E66DB1DB3338D002554C0 /* QuartzCore.framework */; };
+		884E670A1DB34664002554C0 /* ParallaxWeather6Plus-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 884E67091DB34664002554C0 /* ParallaxWeather6Plus-3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		884E66B71DB3333F002554C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 884E66951DB3333D002554C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884E669C1DB3333D002554C0;
+			remoteInfo = gpuImageTest;
+		};
+		884E66C21DB3333F002554C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 884E66951DB3333D002554C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884E669C1DB3333D002554C0;
+			remoteInfo = gpuImageTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		884E66EE1DB3363E002554C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2981FF3272F5622CC1AD59FD /* Pods-gpuImageTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gpuImageTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gpuImageTest/Pods-gpuImageTest.debug.xcconfig"; sourceTree = "<group>"; };
+		884E669D1DB3333D002554C0 /* gpuImageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gpuImageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		884E66A11DB3333E002554C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		884E66A31DB3333E002554C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		884E66A41DB3333E002554C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		884E66A61DB3333E002554C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		884E66A71DB3333E002554C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		884E66AA1DB3333E002554C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		884E66AC1DB3333E002554C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		884E66AF1DB3333E002554C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		884E66B11DB3333E002554C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884E66B61DB3333F002554C0 /* gpuImageTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gpuImageTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		884E66BA1DB3333F002554C0 /* gpuImageTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gpuImageTestTests.m; sourceTree = "<group>"; };
+		884E66BC1DB3333F002554C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884E66C11DB3333F002554C0 /* gpuImageTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gpuImageTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		884E66C51DB3333F002554C0 /* gpuImageTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gpuImageTestUITests.m; sourceTree = "<group>"; };
+		884E66C71DB3333F002554C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884E66D31DB3336F002554C0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		884E66D51DB33376002554C0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		884E66D71DB3337E002554C0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		884E66D91DB33385002554C0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		884E66DB1DB3338D002554C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		884E67091DB34664002554C0 /* ParallaxWeather6Plus-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ParallaxWeather6Plus-3.png"; sourceTree = "<group>"; };
+		94D952DB57595A12F1FD2B8C /* libPods-gpuImageTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gpuImageTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3112A364FAD7D0EF9D90DE4 /* Pods-gpuImageTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gpuImageTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-gpuImageTest/Pods-gpuImageTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		884E669A1DB3333D002554C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884E66DC1DB3338D002554C0 /* QuartzCore.framework in Frameworks */,
+				884E66DA1DB33385002554C0 /* AVFoundation.framework in Frameworks */,
+				884E66D81DB3337E002554C0 /* OpenGLES.framework in Frameworks */,
+				884E66D61DB33376002554C0 /* CoreVideo.framework in Frameworks */,
+				884E66D41DB3336F002554C0 /* CoreMedia.framework in Frameworks */,
+				15C5E68197D8735F12875577 /* libPods-gpuImageTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884E66B31DB3333F002554C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884E66BE1DB3333F002554C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18955E9486821E1E740077D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2981FF3272F5622CC1AD59FD /* Pods-gpuImageTest.debug.xcconfig */,
+				C3112A364FAD7D0EF9D90DE4 /* Pods-gpuImageTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		884E66941DB3333D002554C0 = {
+			isa = PBXGroup;
+			children = (
+				884E66DB1DB3338D002554C0 /* QuartzCore.framework */,
+				884E66D91DB33385002554C0 /* AVFoundation.framework */,
+				884E66D71DB3337E002554C0 /* OpenGLES.framework */,
+				884E66D51DB33376002554C0 /* CoreVideo.framework */,
+				884E66D31DB3336F002554C0 /* CoreMedia.framework */,
+				884E669F1DB3333E002554C0 /* gpuImageTest */,
+				884E66B91DB3333F002554C0 /* gpuImageTestTests */,
+				884E66C41DB3333F002554C0 /* gpuImageTestUITests */,
+				884E669E1DB3333D002554C0 /* Products */,
+				18955E9486821E1E740077D8 /* Pods */,
+				950164DFABF1320EFD36A9E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		884E669E1DB3333D002554C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884E669D1DB3333D002554C0 /* gpuImageTest.app */,
+				884E66B61DB3333F002554C0 /* gpuImageTestTests.xctest */,
+				884E66C11DB3333F002554C0 /* gpuImageTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884E669F1DB3333E002554C0 /* gpuImageTest */ = {
+			isa = PBXGroup;
+			children = (
+				884E66A31DB3333E002554C0 /* AppDelegate.h */,
+				884E66A41DB3333E002554C0 /* AppDelegate.m */,
+				884E66A61DB3333E002554C0 /* ViewController.h */,
+				884E66A71DB3333E002554C0 /* ViewController.m */,
+				884E66A91DB3333E002554C0 /* Main.storyboard */,
+				884E66AC1DB3333E002554C0 /* Assets.xcassets */,
+				884E66AE1DB3333E002554C0 /* LaunchScreen.storyboard */,
+				884E66B11DB3333E002554C0 /* Info.plist */,
+				884E67091DB34664002554C0 /* ParallaxWeather6Plus-3.png */,
+				884E66A01DB3333E002554C0 /* Supporting Files */,
+			);
+			path = gpuImageTest;
+			sourceTree = "<group>";
+		};
+		884E66A01DB3333E002554C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				884E66A11DB3333E002554C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		884E66B91DB3333F002554C0 /* gpuImageTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				884E66BA1DB3333F002554C0 /* gpuImageTestTests.m */,
+				884E66BC1DB3333F002554C0 /* Info.plist */,
+			);
+			path = gpuImageTestTests;
+			sourceTree = "<group>";
+		};
+		884E66C41DB3333F002554C0 /* gpuImageTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				884E66C51DB3333F002554C0 /* gpuImageTestUITests.m */,
+				884E66C71DB3333F002554C0 /* Info.plist */,
+			);
+			path = gpuImageTestUITests;
+			sourceTree = "<group>";
+		};
+		950164DFABF1320EFD36A9E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94D952DB57595A12F1FD2B8C /* libPods-gpuImageTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		884E669C1DB3333D002554C0 /* gpuImageTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884E66CA1DB3333F002554C0 /* Build configuration list for PBXNativeTarget "gpuImageTest" */;
+			buildPhases = (
+				793048C8C4B6A517B05813D8 /* Check Pods Manifest.lock */,
+				884E66991DB3333D002554C0 /* Sources */,
+				884E669A1DB3333D002554C0 /* Frameworks */,
+				884E669B1DB3333D002554C0 /* Resources */,
+				884E66EE1DB3363E002554C0 /* CopyFiles */,
+				08BA2ACE9B336C68C4E35CD0 /* Embed Pods Frameworks */,
+				FD4E64DA4326628B251653A8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gpuImageTest;
+			productName = gpuImageTest;
+			productReference = 884E669D1DB3333D002554C0 /* gpuImageTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		884E66B51DB3333F002554C0 /* gpuImageTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884E66CD1DB3333F002554C0 /* Build configuration list for PBXNativeTarget "gpuImageTestTests" */;
+			buildPhases = (
+				884E66B21DB3333F002554C0 /* Sources */,
+				884E66B31DB3333F002554C0 /* Frameworks */,
+				884E66B41DB3333F002554C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884E66B81DB3333F002554C0 /* PBXTargetDependency */,
+			);
+			name = gpuImageTestTests;
+			productName = gpuImageTestTests;
+			productReference = 884E66B61DB3333F002554C0 /* gpuImageTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		884E66C01DB3333F002554C0 /* gpuImageTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884E66D01DB3333F002554C0 /* Build configuration list for PBXNativeTarget "gpuImageTestUITests" */;
+			buildPhases = (
+				884E66BD1DB3333F002554C0 /* Sources */,
+				884E66BE1DB3333F002554C0 /* Frameworks */,
+				884E66BF1DB3333F002554C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884E66C31DB3333F002554C0 /* PBXTargetDependency */,
+			);
+			name = gpuImageTestUITests;
+			productName = gpuImageTestUITests;
+			productReference = 884E66C11DB3333F002554C0 /* gpuImageTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		884E66951DB3333D002554C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Marshall;
+				TargetAttributes = {
+					884E669C1DB3333D002554C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					884E66B51DB3333F002554C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 884E669C1DB3333D002554C0;
+					};
+					884E66C01DB3333F002554C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 884E669C1DB3333D002554C0;
+					};
+				};
+			};
+			buildConfigurationList = 884E66981DB3333D002554C0 /* Build configuration list for PBXProject "gpuImageTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 884E66941DB3333D002554C0;
+			productRefGroup = 884E669E1DB3333D002554C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				884E669C1DB3333D002554C0 /* gpuImageTest */,
+				884E66B51DB3333F002554C0 /* gpuImageTestTests */,
+				884E66C01DB3333F002554C0 /* gpuImageTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		884E669B1DB3333D002554C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884E670A1DB34664002554C0 /* ParallaxWeather6Plus-3.png in Resources */,
+				884E66B01DB3333E002554C0 /* LaunchScreen.storyboard in Resources */,
+				884E66AD1DB3333E002554C0 /* Assets.xcassets in Resources */,
+				884E66AB1DB3333E002554C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884E66B41DB3333F002554C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884E66BF1DB3333F002554C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08BA2ACE9B336C68C4E35CD0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gpuImageTest/Pods-gpuImageTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		793048C8C4B6A517B05813D8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4E64DA4326628B251653A8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gpuImageTest/Pods-gpuImageTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		884E66991DB3333D002554C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884E66A81DB3333E002554C0 /* ViewController.m in Sources */,
+				884E66A51DB3333E002554C0 /* AppDelegate.m in Sources */,
+				884E66A21DB3333E002554C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884E66B21DB3333F002554C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884E66BB1DB3333F002554C0 /* gpuImageTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884E66BD1DB3333F002554C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884E66C61DB3333F002554C0 /* gpuImageTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		884E66B81DB3333F002554C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884E669C1DB3333D002554C0 /* gpuImageTest */;
+			targetProxy = 884E66B71DB3333F002554C0 /* PBXContainerItemProxy */;
+		};
+		884E66C31DB3333F002554C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884E669C1DB3333D002554C0 /* gpuImageTest */;
+			targetProxy = 884E66C21DB3333F002554C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		884E66A91DB3333E002554C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884E66AA1DB3333E002554C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		884E66AE1DB3333E002554C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884E66AF1DB3333E002554C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		884E66C81DB3333F002554C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		884E66C91DB3333F002554C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884E66CB1DB3333F002554C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2981FF3272F5622CC1AD59FD /* Pods-gpuImageTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = gpuImageTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EliMarsh.gpuImageTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		884E66CC1DB3333F002554C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3112A364FAD7D0EF9D90DE4 /* Pods-gpuImageTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = gpuImageTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EliMarsh.gpuImageTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		884E66CE1DB3333F002554C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gpuImageTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EliMarsh.gpuImageTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gpuImageTest.app/gpuImageTest";
+			};
+			name = Debug;
+		};
+		884E66CF1DB3333F002554C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gpuImageTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EliMarsh.gpuImageTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gpuImageTest.app/gpuImageTest";
+			};
+			name = Release;
+		};
+		884E66D11DB3333F002554C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gpuImageTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EliMarsh.gpuImageTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gpuImageTest;
+			};
+			name = Debug;
+		};
+		884E66D21DB3333F002554C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gpuImageTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EliMarsh.gpuImageTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gpuImageTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884E66981DB3333D002554C0 /* Build configuration list for PBXProject "gpuImageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884E66C81DB3333F002554C0 /* Debug */,
+				884E66C91DB3333F002554C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884E66CA1DB3333F002554C0 /* Build configuration list for PBXNativeTarget "gpuImageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884E66CB1DB3333F002554C0 /* Debug */,
+				884E66CC1DB3333F002554C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884E66CD1DB3333F002554C0 /* Build configuration list for PBXNativeTarget "gpuImageTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884E66CE1DB3333F002554C0 /* Debug */,
+				884E66CF1DB3333F002554C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884E66D01DB3333F002554C0 /* Build configuration list for PBXNativeTarget "gpuImageTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884E66D11DB3333F002554C0 /* Debug */,
+				884E66D21DB3333F002554C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 884E66951DB3333D002554C0 /* Project object */;
+}

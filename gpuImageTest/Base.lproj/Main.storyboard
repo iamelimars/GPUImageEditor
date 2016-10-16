@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o8J-bm-yEO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="442"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.45000000000000001" minValue="0.20000000000000001" maxValue="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="ADS-wR-LpR">
+                                <rect key="frame" x="14" y="478" width="347" height="31"/>
+                                <connections>
+                                    <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="WQb-G4-fCu"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="180" minValue="0.0" maxValue="360" translatesAutoresizingMaskIntoConstraints="NO" id="Gew-mU-MPb">
+                                <rect key="frame" x="10" y="599" width="355" height="31"/>
+                                <connections>
+                                    <action selector="hueSliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="YfV-qA-sdz"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Lb9-Cd-HFS">
+                                <rect key="frame" x="10" y="540" width="355" height="31"/>
+                                <connections>
+                                    <action selector="saturationSliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="uzF-Ya-x5K"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lb9-Cd-HFS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="Fsd-md-NTO"/>
+                            <constraint firstItem="Gew-mU-MPb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="Ibj-yw-eyI"/>
+                            <constraint firstItem="Lb9-Cd-HFS" firstAttribute="top" secondItem="ADS-wR-LpR" secondAttribute="bottom" constant="32" id="KA5-zn-kDq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gew-mU-MPb" secondAttribute="trailing" constant="-4" id="PhZ-yU-I0D"/>
+                            <constraint firstItem="ADS-wR-LpR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Qnp-Dz-Pf1"/>
+                            <constraint firstAttribute="trailing" secondItem="o8J-bm-yEO" secondAttribute="trailing" id="bBb-s2-3pL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lb9-Cd-HFS" secondAttribute="trailing" constant="-4" id="cWP-6x-KbO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="o8J-bm-yEO" secondAttribute="bottom" constant="225" id="fL5-g3-oyQ"/>
+                            <constraint firstItem="ADS-wR-LpR" firstAttribute="top" secondItem="o8J-bm-yEO" secondAttribute="bottom" constant="36" id="fpk-Lx-H8l"/>
+                            <constraint firstItem="o8J-bm-yEO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hvs-0S-0tG"/>
+                            <constraint firstItem="o8J-bm-yEO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="lfg-BB-3d7"/>
+                            <constraint firstItem="Gew-mU-MPb" firstAttribute="top" secondItem="Lb9-Cd-HFS" secondAttribute="bottom" constant="29" id="pW8-y1-baT"/>
+                            <constraint firstItem="ADS-wR-LpR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xbu-1E-WNj"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="hueSlider" destination="Gew-mU-MPb" id="Gwr-Ta-Qwn"/>
+                        <outlet property="imageView" destination="o8J-bm-yEO" id="vtp-5t-5YS"/>
+                        <outlet property="saturationSlider" destination="Lb9-Cd-HFS" id="ddq-kR-shP"/>
+                        <outlet property="slider" destination="ADS-wR-LpR" id="kLt-WW-FIz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288.5" y="273.5"/>
+        </scene>
+    </scenes>
+</document>
