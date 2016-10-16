@@ -38,8 +38,10 @@
     //self.imageView.image = inputImage;
     newwImage = inputImage;
     fx_image = [[GPUImagePicture alloc] initWithImage:newwImage];
-    [fx_image addTarget:rgbFilter];
-    [rgbFilter addTarget:opacityFilter];
+    [fx_image addTarget:hueFilter];
+    [hueFilter addTarget:brightnessFilter];
+    [brightnessFilter addTarget:saturationFilter];
+    [saturationFilter addTarget:opacityFilter];
 //    [hueFilter addTarget:saturationFilter];
 //    [saturationFilter addTarget:brightnessFilter];
     [opacityFilter useNextFrameForImageCapture];
@@ -53,8 +55,8 @@
 
 - (IBAction)sliderAction:(id)sender {
     
-    //[brightnessFilter setBrightness:self.slider.value];
-    [rgbFilter setRed:self.slider.value];
+    [brightnessFilter setBrightness:self.slider.value];
+    //[rgbFilter setRed:self.slider.value];
     //[fx_image addTarget:brightnessFilter];
     [opacityFilter useNextFrameForImageCapture];
     [fx_image processImage];
@@ -69,8 +71,8 @@
 }
 - (IBAction)saturationSliderAction:(id)sender {
     
-//    [saturationFilter setSaturation:self.saturationSlider.value];
-    [rgbFilter setGreen:self.saturationSlider.value];
+    [saturationFilter setSaturation:self.saturationSlider.value];
+    //[rgbFilter setGreen:self.saturationSlider.value];
     //[fx_image addTarget:saturationFilter];
     [opacityFilter useNextFrameForImageCapture];
     [fx_image processImage];
@@ -82,8 +84,8 @@
 }
 - (IBAction)hueSliderAction:(id)sender {
     
-//    [hueFilter setHue:self.hueSlider.value];
-    [rgbFilter setBlue:self.hueSlider.value];
+    [hueFilter setHue:self.hueSlider.value];
+    //[rgbFilter setBlue:self.hueSlider.value];
     //[fx_image addTarget:hueFilter];
     [opacityFilter useNextFrameForImageCapture];
     [fx_image processImage];
